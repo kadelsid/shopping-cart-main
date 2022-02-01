@@ -6,10 +6,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class TechNovaCartApplication {
+public class ShoppingCartApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TechNovaCartApplication.class, args);
+        SpringApplication.run(ShoppingCartApplication.class, args);
     }
 
 
