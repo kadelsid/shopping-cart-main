@@ -1,4 +1,4 @@
-package com.technova.shopping_cart.TechNova.Cart.dto;
+package com.Cart.dto;
 
 import lombok.Data;
 

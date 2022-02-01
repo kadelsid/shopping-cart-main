@@ -1,4 +1,4 @@
-package com.technova.shopping_cart.TechNova.Cart.model;
+package com.Cart.model;
 
 import lombok.Data;
 import javax.persistence.*;

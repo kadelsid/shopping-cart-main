@@ -1,4 +1,4 @@
-package com.technova.shopping_cart.TechNova.Cart.model;
+package com.Cart.model;
 
 import lombok.Data;
 import javax.persistence.*;
@@ -20,5 +20,8 @@ public class User {
 
     @Column //(name = "Email")
     private String email;
+
+    @Column
+    private String password;
 
 }

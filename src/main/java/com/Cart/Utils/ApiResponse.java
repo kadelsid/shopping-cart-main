@@ -1,12 +1,11 @@
-package com.technova.shopping_cart.TechNova.Cart.Utils;
+package com.Cart.Utils;
 
 import org.springframework.http.ResponseEntity;
-
 import java.util.HashMap;
 import java.util.Map;
 
 public class ApiResponse {
-    public static ResponseEntity<Object> generateResponse(Integer status, String message, Object data, String errors) {
+    public static ResponseEntity<Object> generateResponse(Integer status, String message, Object data,Object errors) {
 
         Map<String, Object> newMap = new HashMap<>();
         newMap.put("statusCode", status);

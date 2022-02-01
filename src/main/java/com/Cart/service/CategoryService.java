@@ -1,8 +1,8 @@
-package com.technova.shopping_cart.TechNova.Cart.service;
+package com.Cart.service;
 
-import com.technova.shopping_cart.TechNova.Cart.dto.CategoryRequest;
-import com.technova.shopping_cart.TechNova.Cart.model.Category;
-import com.technova.shopping_cart.TechNova.Cart.repository.CategoryRepository;
+import com.Cart.dto.CategoryRequest;
+import com.Cart.model.Category;
+import com.Cart.repository.CategoryRepository;
 import org.springframework.stereotype.Service;
 import java.util.List;
 
